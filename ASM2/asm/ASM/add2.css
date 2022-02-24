@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .haha{
+    min-height: 500px;
+    width: 50%;
+    background-color: white;
+    float: left;
+  }
+  .design{
+      min-height: 500px;
+      width: 50%;
+      background-color: white;
+      float: right;
+  }
+  .huhu{
+    min-height: 650px;
+    width: 40%;
+    background-color: white;
+    float: left;
+  }
+  .hihi{
+    min-height: 650px;
+    width: 60%;
+    background-color: white;
+    float: right;
+  }
+  .reddog{
+      color: red;
+  }

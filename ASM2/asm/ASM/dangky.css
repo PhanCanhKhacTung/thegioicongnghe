@@ -1,0 +1,168 @@
+body{
+
+    background-color: rgb(168 164 164 / 15%);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hinhlogo{
+    border-radius: 4px;
+    
+}
+.btn-home{
+    float: right;
+    margin-top: -26px;
+    margin-right: 4px;
+}
+
+.dangnhap{
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  turquoise;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.dangnhap-content{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.img-dangnhap{
+    border-radius: 10px;
+   
+}
+
+.khung-dangnhap{
+    width: 35%;
+    height: 500px;
+    background-color: rgb(245, 243, 243);
+    opacity: 0.95;
+    margin-top: 26px;
+    margin-right: 25px;
+    box-shadow:  0 3px 10px 0 rgba(17, 17, 17, 0.4);
+    border-radius: 4px;
+}
+
+.list-dangnhap{
+    list-style-type: none;
+}
+
+.tieude{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: -20px;
+}
+.btn-tk{
+    width: 80%;
+    padding: 8px;
+    font-size: 14px;
+    outline-color: rgb(197, 0, 35);
+}
+
+.btn-mk{
+    width: 80%;
+    padding: 8px;
+    font-size: 14px;
+    margin:  16px 0;
+    outline-color: rgb(197, 0, 35);
+}
+
+.nut-dangnhap{
+    width: 86%;
+    padding: 8px;
+    font-size: 14px;
+    margin:  12px 0;
+    color: #fff;
+    background-color: rgb(197, 0, 35);
+    opacity: 0.9;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.nut-dangnhap:hover{
+    opacity: 1;
+}
+
+
+.ket{
+    margin-right: 46px;
+    font-size: 16px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    word-spacing: -6px;
+    text-align: center;
+}
+.ket a{
+    text-decoration: none;
+    color: rgb(197, 0, 35);
+}
+
+
+
+.hoten{
+    display: flex;
+}
+.ip-ten{
+    width: 120px;
+    padding: 6px;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    outline-color: rgb(197, 0, 35);
+}
+.ngaysinh{
+    display: flex;
+    flex-direction: column;
+}
+.text-ngaysinh{
+    font-size: 14px;
+}
+.btn-ngaysinh{
+    width: 130px;
+    padding: 6px;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    outline-color: rgb(197, 0, 35);
+}
+
+.text-gioitinh{
+    font-size: 14px;
+}
+.btn-gt{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gt-khung{
+    margin-right: 16px;
+    padding: 4px 6px;
+    border: 1px solid #000; 
+}
+
+.gt-khung:hover{
+    border:1px solid rgb(197, 0, 35);
+    
+}
+.dieukhoang{
+    margin-top: 16px;
+    font-size: 13px;
+    margin-right: 40px;
+    font-weight: 10px;
+    letter-spacing: 1px;
+    word-spacing: -6px;
+    text-align: center;
+}
+.dieukhoang a{
+    color: rgb(197, 0, 35);
+    text-decoration: none;
+}
